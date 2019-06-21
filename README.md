@@ -34,14 +34,16 @@ Although the system has several dependencies, the experiments can be easily repr
 git clone https://github.com/thiagopx/docrec-tifs18.git
 cd docrect-tifs18
 ```
-
 2. Build the container (defined in ```docker/Dockerfile```):
 ```
 bash build.sh
 ```
-
 3. Run the experiments:
 ```
 bash run.sh
 ```
+
+*Technical note* : the threshold for shape matching is already calibrate acording the source code in ```train``` directory. The optimal value was obtained by running ```python train.py```, and the configuration file ```algorithms.cfg``` was manually modified accordingly.
+
+
 
