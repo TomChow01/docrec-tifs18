@@ -46,4 +46,9 @@ bash run.sh
 *Technical note* : the threshold for shape matching is already calibrate acording the source code in ```train``` directory. The optimal value was obtained by running ```python train.py```, and the configuration file ```algorithms.cfg``` was manually modified accordingly.
 
 
+---
+
+### Sensitivity analysis
+
+The sensisity of some key parameters was analyzed in the paper using the one-factor-at-time (OFAT) approach. In this repository, we also attached the [file](https://github.com/thiagopx/docrec-tifs18/blob/master/sensitivity.pdf) with a more detailed analysis (including graphs) in response of one the reviewer's request.
 
