@@ -50,5 +50,5 @@ bash run.sh
 
 ### Sensitivity analysis
 
-The sensisity of some key parameters was analyzed in the paper using the one-factor-at-time (OFAT) approach. In this repository, we also attached the [file](https://github.com/thiagopx/docrec-tifs18/blob/master/sensitivity.pdf) with a more detailed analysis (including graphs) in response of one the reviewer's request.
+The sensitivity of some key parameters was analyzed in the paper using the one-factor-at-time (OFAT) approach. In this repository, we also attached the [file](https://github.com/thiagopx/docrec-tifs18/blob/master/sensitivity.pdf) with a more detailed analysis (including graphs) in response of one the reviewer's request.
 
